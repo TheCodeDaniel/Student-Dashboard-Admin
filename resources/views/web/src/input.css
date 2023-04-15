@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .btn{
+    @apply bg-gradient-to-r from-sky-400 to-sky-200 font-semibold p-4 rounded-full hover:shadow-md hover:duration-200;
+    }
+    .btn-admin{
+    @apply bg-gradient-to-r from-sky-500 to-sky-600 font-semibold p-4 rounded-full hover:shadow-md hover:duration-200;
+    }
+    .bg-admin{
+        @apply bg-gradient-to-r from-sky-500 to-sky-600
+    }
+    .shadow-vague{
+        box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.05);
+    }
+}
